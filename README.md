@@ -53,5 +53,4 @@ Feel free to contribute to this project by submitting pull requests or reporting
 
 ---
 
-Thank you for using **AI Blog Companion**! We hope this tool helps you streamline your blog writing process. 😊
 
