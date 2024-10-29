@@ -26,7 +26,7 @@ Integer-float operations yield floats to maintain precision, while boolean value
 
 
 
-## 🛠️ Installation
+## 🛠️ How use code in your VS CODE 
 
 1. **Clone the repository:**
 
