@@ -10,3 +10,13 @@ add = a+b
 
 print("sum of a and b is :", add)
 
+# MULTILINE string . 
+
+multi_line_string = """hkjdhfk
+hdfkjdshf
+jkdhfkds
+kdhfk
+kdfhsd
+fjds"""
+
+print(multi_line_string) 
