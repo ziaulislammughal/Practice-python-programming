@@ -22,9 +22,20 @@
 #  and or not . 
 
 
-number = int(input("Enter number :"))
-if number == 10 or  number > 25:
-    print("good choice")
-else:
-    print("not good choice ")
+# number = int(input("Enter number :"))
+# if number == 10 or  number > 25:
+#     print("good choice")
+# else:
+#     print("not good choice ")
 
+
+
+# age = int(input("Enter your age : "))
+# can_drive = "can drive" if age>= 10 else "can't drive"
+# print(can_drive)
+
+
+std_name = "zia ul islam mughal "
+print(std_name.lower())
+print(std_name[::-1])
+print(len(std_name))
