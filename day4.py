@@ -1,9 +1,23 @@
-# string 
+# Get user input for name and age
+name = input("Enter your name: \n")
+age = int(input("Enter your age: \n"))
 
-name = input("Enter your name : \n")
-age = int(input("Enter your age :\n"))
-
+# Check if the user is eligible for an identification card
 if age >= 18:
-    print(f"Helow , {name} you are able to submit application for Identificatioin card .")
+    print(f"Hello, {name} you are eligible to submit an application for an identification card.")
 else:
-    print(f"Sorry , {name} you are not able to submit application for Identificatioin card as you are below 18 years old.")
+    print(f"Sorry, {name} you are not eligible to submit an application for an identification card as you are below 18 years old.")
+
+# Define university name with extra spaces
+uni_name = "           University of Azad Jammu Kashmir, King Abdullah Campus        "
+
+# Print university name before and after removing extra spaces
+print("\nUniversity Name (Before):")
+print(uni_name)
+print("-------------------------------")
+print("University Name (After):")
+print(uni_name.strip())
+
+# Print reversed university name after removing extra spaces
+print("\nReversed University Name (After):")
+print(uni_name.strip()[::-1])
